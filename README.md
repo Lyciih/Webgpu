@@ -25,13 +25,13 @@ npm i style-loader css-loader ts-loader
 npm i typescript
 
 -對 package.json 中的 scripts 進行修改
-```
+```javascript
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
 改成以下
-```
+```javascript
   "scripts": {
     "dev": "webpack --mode development",
     "prod": "webpack --mode production",
